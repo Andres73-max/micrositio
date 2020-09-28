@@ -1,0 +1,15 @@
+body{
+    
+    border:1px solid black;
+    text-align: center;
+    margin: 25px;
+    background: gray;
+}
+
+nav{
+    display: block;
+    margin: 5px;
+    padding: 3px;
+    border: solid 3px blue;
+    
+}

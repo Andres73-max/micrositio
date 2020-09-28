@@ -1,0 +1,21 @@
+.top{
+    text-align: center;
+    background: gray;
+    
+}
+
+
+.menu{
+    text-align: center;
+    background: gray;
+    display: block ;
+    border: black 2px solid;
+}
+
+.menu li{
+    border:rgb(13, 13, 14) 2px solid;
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+}
+

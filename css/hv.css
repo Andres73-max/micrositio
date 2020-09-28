@@ -1,0 +1,52 @@
+body{
+    
+    border:1px solid black;
+    text-align: center;
+    margin: 25px;
+    background: gray;
+}
+
+header,section,footer,aside,nav{
+    border:3px solid black;
+    display: block;
+    padding: 5px;
+    
+}
+
+.menu li{
+   list-style: none;
+   padding: 1px 10px;
+   display: inline-block;
+   background: grey;
+}
+div{
+    margin: auto;
+}
+
+
+.encabezado{
+display: inline-block;
+background: rgb(51, 167, 67);
+}
+ 
+ h1{
+    background:rgb(51, 167, 67);
+}
+
+section{
+    background: rgb(92, 92, 100);
+}
+ul li{
+    list-style: none;
+    text-align: center;
+}
+.seccion{
+    margin: 15px ;
+    padding-right: 15px;
+    float: left;
+}
+
+.pie{
+    background: darkgray;
+    clear: both;
+}

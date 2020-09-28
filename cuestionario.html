@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>cuestionario</title>
+    <meta charset="utf-8">
+    <meta name="description" content="cuestionario referente a lo aprendido en la clase del 21/09/2020,
+    como lo es etiquetas para un formulario y paginas de ayuda para tomar como referencia">
+    <link rel="stylesheet" href="css/cuestionario.css">
+</head>
+
+<body>
+    <header class="top">
+        <h1>CUESTIONARIO DE WEB</h1>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sopaLetras.html">Sopa de letras</a></li>
+            <li><a href="hojaVida.html">Hoja de vida</a></li>
+        </ul>
+    </nav>
+
+     <form action="html5-formularios.html" method="get">
+         
+       <label form="nombre">Nombre:</label>
+       <input name="nombre" type="text"> 
+       <br>
+       <label form="Apellido">Apellido:</label>
+       <input name="apellido" type="text">
+       <br>
+       <label form="educacion">Nivel de educación</label>
+       <select name="educacion">
+        <option value="primaria">Primaria</option>
+        <option value="bachillerato">Bachillerato</option>
+        <option value="tecnico">Tecnico</option>
+        <option value="tecnologo">Tecnologo</option>
+        <option value="profesional">Profesional</option>
+        <option value="otro">Otro</option>
+        </select>
+        <br>
+        <h3>Genero</h3>
+        <input type="radio" name="gender" value="hombre" checked>Hombre
+        <br>
+        <input type="radio" name="gender" value="mujer">Mujer
+        <br>
+        <input type="radio" name="gender" value="otro"> Otro
+       <br>
+       <label form="edad">Edad: </label>
+       <input type="number" name="edad" min="18" max="70" step="1">
+       <br>
+       <br>
+        <h4>¿que entiende por "responsive design"?</h4>
+        <textarea name="respuesta" cols="30" rows="10"></textarea>
+        <br>
+        <h3>seleccione las partes pricipales de una pagina web</h3>
+        <input type="checkbox" name="a" value="head">"header" 
+        <br>
+        <input type="checkbox" name="article">"article"
+
+
+
+       <br>
+       <input type="submit" value="ENVIAR">
+
+     </form>
+
+
+</body>
+
+<footer>
+Realizado por: Andres Giraldo, 2020
+</footer>
+</html>
